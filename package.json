@@ -4,11 +4,17 @@
   "description": "Tailwind CSS: From Zero to Production",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "keywords": [
     "tailwindcss"
   ],
   "author": "Danny Kim",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  }
 }
